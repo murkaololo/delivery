@@ -3,29 +3,50 @@ body {
 }
 
 .slogan {
-    font-family: Pacifico, Regular;
+    font-family: 'Pacifico', cursive;
 }
 .slogan1 {
     font-size: 77.32px;
     text-align: left;
     letter-spacing: 2.97px;
     color: #FFFFFF;
-    margin-left: 200px;
     margin-top: 96px;
+    margin-left: 200px;
 }
+@media (max-width: 1200px) {
+    .slogan1 {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        line-height: 84px;
+    }
+}
+
 .slogan2 {
     font-size: 182.75px;
     text-align: left;
+    line-height: 37px;
     letter-spacing: 6.49px;
     color: #B7E611;
     margin-left: 260px;
-    margin-top: -130px;
 }
+@media (max-width: 1200px) {
+    .slogan2 {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        line-height: 84px;
+        font-size: 120px;
+    }
+}
+
 .header {
     background-image: url(img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 650px;
+    padding-bottom: 75px;
 }
 .logo {
     max-width: 208px;
@@ -46,16 +67,16 @@ body {
     opacity: 0.9;
 }
 .button-about {
+    height: 50px;
+    width: 150px;
+    margin-top: 115px;
+    border: none;
+    border-radius: 34.5px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #FFFFFF;
     background: #A3D200;
-    border-radius: 34.5px;
-    height: 50px;
-    width: 150px;
-    border: none;
     opacity: 0.9;
-    margin-top: 20px;
 }
 button, 
 button:active, 
