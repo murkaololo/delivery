@@ -20,6 +20,7 @@ body {
         margin-left: 0;
         text-align: center;
         line-height: 84px;
+        font-size: 60px;
     }
 }
 
@@ -38,7 +39,7 @@ body {
         margin-left: 0;
         text-align: center;
         line-height: 84px;
-        font-size: 120px;
+        font-size: 100px;
     }
 }
 
@@ -66,6 +67,12 @@ body {
     border: none;
     opacity: 0.9;
 }
+@media (max-width: 1200px) {
+    .login-button {
+        margin-top: 16px;
+    }
+}
+
 .button-about {
     height: 50px;
     width: 150px;
@@ -116,6 +123,7 @@ button:hover {
     border-radius: 16px;
 }
 .store-name {
+    margin: 6px 0;
     font-family: 'Open Sans';
     font-weight: bold;
     font-size: 24px;
