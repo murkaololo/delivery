@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .slogan {
     font-family: Pacifico, Regular;
 }
@@ -20,6 +24,7 @@
 .header {
     background-image: url(img/bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 650px;
 }
 .logo {
@@ -55,13 +60,13 @@
 button, 
 button:active, 
 button:focus {
-    outline: none;
+    cursor: pointer;
 }
 button:hover {
     border-color: #B7E611;
     opacity: 1;
 }
-.about-us {
+.header-1 {
     font-family: 'Open Sans';
     font-weight: bold;
     font-size: 35px;
@@ -69,37 +74,45 @@ button:hover {
     text-align: left;
     color: #333333;
     margin-top: 50px;
-    margin-left: 100px;
 }
-.text-container {
-    margin-left: 100px;
+.description-cover {
+    width: 100%;
+}
+.lead-text {
     font-family: 'Open Sans', Regular;
     font-size: 18px;
 }
-.restaurant-name {
-    margin-left: 80px;
+.store-card {
+    margin-bottom: 48px;
+}
+.store-link {
+    display: block;
+    text-decoration: inherit;
+    color: inherit;
+}
+.store-image {
+    width: 100%;
+    border-radius: 16px;
+}
+.store-name {
     font-family: 'Open Sans';
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
     text-align: left;
     color: #333333;
-    margin-top: -45px;
 }
 .order {
-    margin-left: 80px;
     margin-top: 10px;
     font-family: 'Open Sans';
     font-size: 16px;
     line-height: 22px;
 }
 .IPdelivery {
-    margin-left: 80px;
     margin-top: 25px;
     line-height: 1px;
 }
 .free {
-    margin-left: 80px;
     line-height: 1px;
 }
 .boldtext {
@@ -123,6 +136,7 @@ button:hover {
 }
 .footer {
     margin-top: 100px;
+    padding-bottom: 64px;
     background-color: #333333;
 }
 .footer-right-part {
@@ -138,18 +152,23 @@ h4 {
     color: #999999;
     margin-top: 40px;
 }
-.footer-info {
+.footer-link {
+    font-family: 'Open Sans', Regular;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+    text-decoration-style: underline solid;
+    color: #CCCCCC;
+}
+.footer-link:hover {
+    color: #A3D200;
+}
+.footer-text {
     font-family: 'Open Sans', Regular;
     font-size: 18px;
     line-height: 32px;
     text-align: left;
     color: #CCCCCC;
-}
-.footer-info-about {
-    text-decoration-style: underline solid;
-}
-.footer-info-about:hover {
-    color: blueviolet;
 }
 .social-icons {
     margin-top: 40px;
